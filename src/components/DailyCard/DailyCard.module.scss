@@ -1,0 +1,23 @@
+.DailyCard {
+  background-color: #3A8AC0;
+  overflow: hidden;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  img {
+    transition: .5s;
+    display: block;
+    &:hover {
+      transform: scale(1.3);
+    }
+  }
+}
+
+.DailyDay:after {
+  content: '°';
+}
+
+.DailyMain {
+
+}

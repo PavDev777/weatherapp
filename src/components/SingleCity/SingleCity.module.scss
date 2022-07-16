@@ -1,0 +1,27 @@
+.Wrapper {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  place-content: center;
+}
+
+.DailyCards {
+  margin-top: 24px;
+  display: flex;
+  column-gap: 10px;
+  overflow-x: scroll;
+}
+
+.BackButton {
+  justify-self: start;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  background-color: #3A8AC0;
+  color: #ffffff;
+  transition: background-color .4s ease-in-out;
+  &:hover {
+    background-color: darken(#3A8AC0, 10%);
+  }
+}

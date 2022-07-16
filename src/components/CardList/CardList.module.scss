@@ -1,0 +1,6 @@
+.CardList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 224px));
+  margin-top: 10px;
+  grid-gap: 10px;
+}
